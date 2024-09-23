@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Open Cart App Test Regression Suite" parallel="tests"
+	thread-count="3" verbose="3">
+	
+	<test name=" Login Page Test_chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest"></class>
+		</classes>
+	</test>
+	<!-- If you want to run the same test on multiple/different browsers-Just 
+	change the test name and update the browse name since test name should be unique-->
+	<test name=" Login Page Test_firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Login Page Test_edge">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest"></class>
+		</classes>
+	</test>
+	<!--
+	<test name="Product Information Page Test">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="com.qa.opencart.tests.ProductInfoPageTest"></class>
+		</classes>
+	</test>-->
+</suite>

@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="21" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T07:50:12 PDT" name="Open Cart App Test Regression Suite" finished-at="2024-07-02T07:51:22 PDT" duration-ms="70267">
+    <groups>
+    </groups>
+    <test started-at="2024-07-02T07:50:12 PDT" name=" Login Page Test" finished-at="2024-07-02T07:50:19 PDT" duration-ms="7444">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@76cf841]" started-at="2024-07-02T07:50:12 PDT" name="setUp" finished-at="2024-07-02T07:50:14 PDT" duration-ms="2648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@76cf841]" started-at="2024-07-02T07:50:14 PDT" name="loginPageTitleTest" finished-at="2024-07-02T07:50:15 PDT" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@76cf841]" started-at="2024-07-02T07:50:15 PDT" name="loginPageUrlTest" finished-at="2024-07-02T07:50:15 PDT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkExistTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@76cf841]" started-at="2024-07-02T07:50:15 PDT" name="forgotPwdLinkExistTest" finished-at="2024-07-02T07:50:16 PDT" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkExistTest -->
+        <test-method signature="loginTest()[pri:4, instance:com.qa.opencart.tests.LoginPageTest@76cf841]" started-at="2024-07-02T07:50:16 PDT" name="loginTest" finished-at="2024-07-02T07:50:19 PDT" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@76cf841]" started-at="2024-07-02T07:50:19 PDT" name="tearDown" finished-at="2024-07-02T07:50:19 PDT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!--  Login Page Test -->
+    <test started-at="2024-07-02T07:50:20 PDT" name="Reg Page Test" finished-at="2024-07-02T07:50:24 PDT" duration-ms="4165">
+      <class name="com.qa.opencart.tests.RegisterPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@1c93b51e]" started-at="2024-07-02T07:50:20 PDT" name="setUp" finished-at="2024-07-02T07:50:22 PDT" duration-ms="1981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="retSetup()[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@1c93b51e]" started-at="2024-07-02T07:50:22 PDT" name="retSetup" finished-at="2024-07-02T07:50:24 PDT" duration-ms="1592" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.qa.opencart.utils.ElementUtil.doClick(ElementUtil.java:91)
+at com.qa.opencart.pages.LoginPage.navigateToRegisterPage(LoginPage.java:51)
+at com.qa.opencart.tests.RegisterPageTest.retSetup(RegisterPageTest.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retSetup -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@1c93b51e]" started-at="2024-07-02T07:50:24 PDT" name="userRegistrationTest" data-provider="userRegTestData" finished-at="2024-07-02T07:50:24 PDT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rekha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567893]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.qa.opencart.utils.ElementUtil.doClick(ElementUtil.java:91)
+at com.qa.opencart.pages.LoginPage.navigateToRegisterPage(LoginPage.java:51)
+at com.qa.opencart.tests.RegisterPageTest.retSetup(RegisterPageTest.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@1c93b51e]" started-at="2024-07-02T07:50:24 PDT" name="userRegistrationTest" data-provider="userRegTestData" finished-at="2024-07-02T07:50:24 PDT" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567894]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[np]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.qa.opencart.utils.ElementUtil.doClick(ElementUtil.java:91)
+at com.qa.opencart.pages.LoginPage.navigateToRegisterPage(LoginPage.java:51)
+at com.qa.opencart.tests.RegisterPageTest.retSetup(RegisterPageTest.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@1c93b51e]" started-at="2024-07-02T07:50:24 PDT" name="userRegistrationTest" data-provider="userRegTestData" finished-at="2024-07-02T07:50:24 PDT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567895]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.qa.opencart.utils.ElementUtil.doClick(ElementUtil.java:91)
+at com.qa.opencart.pages.LoginPage.navigateToRegisterPage(LoginPage.java:51)
+at com.qa.opencart.tests.RegisterPageTest.retSetup(RegisterPageTest.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@1c93b51e]" started-at="2024-07-02T07:50:24 PDT" name="userRegistrationTest" data-provider="userRegTestData" finished-at="2024-07-02T07:50:24 PDT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Leu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567896]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/register" class="list-group-item" style="background-color: rgb(255, 255, 255);">...</a> is not clickable at point (1070, 390). Other element would receive the click: <ul class="list-unstyled">...</ul>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ddfe9baeeb2138d0faa73d9363f9b76, clickElement {id=f.9336F7B9F3F051ED1E36B31DCB8596E6.d.303E02746BAC31950C972A99753AC33A.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ddfe9baeeb2138d0faa73d9363f9b76)] -> link text: Register]
+Session ID: 0ddfe9baeeb2138d0faa73d9363f9b76
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.qa.opencart.utils.ElementUtil.doClick(ElementUtil.java:91)
+at com.qa.opencart.pages.LoginPage.navigateToRegisterPage(LoginPage.java:51)
+at com.qa.opencart.tests.RegisterPageTest.retSetup(RegisterPageTest.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@1c93b51e]" started-at="2024-07-02T07:50:24 PDT" name="tearDown" finished-at="2024-07-02T07:50:24 PDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.RegisterPageTest -->
+    </test> <!-- Reg Page Test -->
+    <test started-at="2024-07-02T07:50:12 PDT" name="Account Page Test" finished-at="2024-07-02T07:50:29 PDT" duration-ms="17242">
+      <class name="com.qa.opencart.tests.AccountsPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:12 PDT" name="setUp" finished-at="2024-07-02T07:50:16 PDT" duration-ms="4632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:16 PDT" name="accPageSetup" finished-at="2024-07-02T07:50:19 PDT" depends-on-methods="com.qa.opencart.base.BaseTest.setUp" duration-ms="2709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSetup -->
+        <test-method signature="accPageHeadersTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:19 PDT" name="accPageHeadersTest" finished-at="2024-07-02T07:50:19 PDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageHeadersTest -->
+        <test-method signature="accPageTitleTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:19 PDT" name="accPageTitleTest" finished-at="2024-07-02T07:50:19 PDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageTitleTest -->
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:19 PDT" name="searchTest" data-provider="getSearchData" finished-at="2024-07-02T07:50:22 PDT" duration-ms="2303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:22 PDT" name="searchTest" data-provider="getSearchData" finished-at="2024-07-02T07:50:24 PDT" duration-ms="2151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:24 PDT" name="searchTest" data-provider="getSearchData" finished-at="2024-07-02T07:50:26 PDT" duration-ms="2067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:26 PDT" name="searchTest" data-provider="getSearchData" finished-at="2024-07-02T07:50:28 PDT" duration-ms="2083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Airtel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@79eeff87]" started-at="2024-07-02T07:50:28 PDT" name="tearDown" finished-at="2024-07-02T07:50:29 PDT" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.AccountsPageTest -->
+    </test> <!-- Account Page Test -->
+    <test started-at="2024-07-02T07:50:12 PDT" name="Product Information Page Test" finished-at="2024-07-02T07:51:22 PDT" duration-ms="70267">
+      <class name="com.qa.opencart.tests.ProductInfoPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:12 PDT" name="setUp" finished-at="2024-07-02T07:50:16 PDT" duration-ms="4657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="productInfoPagesetUp()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:16 PDT" name="productInfoPagesetUp" finished-at="2024-07-02T07:50:20 PDT" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoPagesetUp -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:20 PDT" name="productHeaderTest" data-provider="getProductData" finished-at="2024-07-02T07:50:23 PDT" duration-ms="3981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:23 PDT" name="productHeaderTest" data-provider="getProductData" finished-at="2024-07-02T07:50:27 PDT" duration-ms="3414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:27 PDT" name="productHeaderTest" data-provider="getProductData" finished-at="2024-07-02T07:50:30 PDT" duration-ms="3308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:30 PDT" name="productHeaderTest" data-provider="getProductData" finished-at="2024-07-02T07:50:34 PDT" duration-ms="3387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:34 PDT" name="productHeaderTest" data-provider="getProductData" finished-at="2024-07-02T07:50:39 PDT" duration-ms="5697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[canon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Canon EOS 5D]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method signature="productImageCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:39 PDT" name="productImageCountTest" data-provider="getProductImageData" finished-at="2024-07-02T07:50:46 PDT" duration-ms="6801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageCountTest -->
+        <test-method signature="productImageCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:46 PDT" name="productImageCountTest" data-provider="getProductImageData" finished-at="2024-07-02T07:50:53 PDT" duration-ms="6881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageCountTest -->
+        <test-method signature="productImageCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:50:53 PDT" name="productImageCountTest" data-provider="getProductImageData" finished-at="2024-07-02T07:51:00 PDT" duration-ms="6772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageCountTest -->
+        <test-method signature="productImageCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:51:00 PDT" name="productImageCountTest" data-provider="getProductImageData" finished-at="2024-07-02T07:51:07 PDT" duration-ms="6757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageCountTest -->
+        <test-method signature="productImageCountTest(java.lang.String,java.lang.String,int)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:51:07 PDT" name="productImageCountTest" data-provider="getProductImageData" finished-at="2024-07-02T07:51:13 PDT" duration-ms="6881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[canon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Canon EOS 5D]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageCountTest -->
+        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:51:13 PDT" name="productInfoTest" finished-at="2024-07-02T07:51:21 PDT" duration-ms="7350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@2091833]" started-at="2024-07-02T07:51:21 PDT" name="tearDown" finished-at="2024-07-02T07:51:22 PDT" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
+    </test> <!-- Product Information Page Test -->
+  </suite> <!-- Open Cart App Test Regression Suite -->
+</testng-results>
